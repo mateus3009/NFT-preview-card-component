@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+  --color-soft-blue: hsl(215, 51%, 70%);
+  --color-cyan: hsl(178, 100%, 50%);
+  --color-very-dark-blue-main-bg: hsl(217, 54%, 11%);
+  --color-very-dark-blue-card-bg: hsl(216, 50%, 16%);
+  --color-very-dark-blue-line: hsl(215, 32%, 27%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+
+html, body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: var(--color-very-dark-blue-main-bg);
+}
+
+main {
+  width: 350px;
+  padding: 23px;
+  border-radius: 15px;
+  background-color: var(--color-very-dark-blue-card-bg);
+  color: var(--color-soft-blue);
+}
+
+main > img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+  border-radius: 6px;
+}
+
+main > h1 {
+  margin-bottom: 17px;
+  font-size: 22px;
+}
+
+main > p {
+  font-size: 18px;
+  line-height: 25.5px;
+}
+
+main > p, main > div {
+  margin-bottom: 22px;
+}
+
+aside {
+  margin-bottom: 22px;
+}
+
+aside, aside > * {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+aside > * > * {
+  margin-left: 9px;
+}
+
+aside > * > *:first-child {
+  margin-left: 0;
+}
+
+span {
+  font-weight: 300;
+}
+
+.ethereum_value {
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--color-cyan);
+}
+
+h1, strong {
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+footer {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+  padding: 16px 0 0;
+  border-top: solid 1px var(--color-very-dark-blue-line);
+}
+
+footer > img {
+  width: 33px;
+  height: auto;
+  margin-right: 17px;
+  border: solid 1px var(--color-white);
+  border-radius: 100%;
+}
+
+footer > span {
+  letter-spacing: 1.2px;
+}
