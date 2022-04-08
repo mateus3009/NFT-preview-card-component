@@ -32,6 +32,7 @@ main {
   border-radius: 15px;
   background-color: var(--color-very-dark-blue-card-bg);
   color: var(--color-soft-blue);
+  box-shadow: 0 23px 10px 17px rgba(0, 0, 0, .1), 0 15px 20px 50px rgba(0, 0, 0, .03);
 }
 
 main > img {
@@ -95,6 +96,7 @@ footer {
   flex-flow: row nowrap;
   align-items: center;
   width: 100%;
+  margin-bottom: 11px;
   padding: 16px 0 0;
   border-top: solid 1px var(--color-very-dark-blue-line);
 }
@@ -108,5 +110,5 @@ footer > img {
 }
 
 footer > span {
-  letter-spacing: 1.2px;
+  letter-spacing: 1.05px;
 }
