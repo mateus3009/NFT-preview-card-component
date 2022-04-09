@@ -9,25 +9,25 @@
 
   <title>Frontend Mentor | NFT preview card component</title>
 </head>
-<body>
+<body class="center">
 
-  <main>
-    <picture></picture>
-    <h1>Equilibrium #3429</h1>
-    <p>Our Equilibrium collection promotes balance and calm.</p>
-    <aside>
-      <div>
-        <img src="images/icon-ethereum.svg" alt="ether">
-        <span class="ethereum_value">0.041 ETH</span>
+  <main class="card">
+    <a class="nft_image_container" href="http://" target="_blank" rel="noopener noreferrer"><img class="nft_image" src="images/image-equilibrium.jpg" alt="NFT"></a>
+    <a href="http://" target="_blank"><h1 class="title">Equilibrium #3429</h1></a>
+    <p class="description">Our Equilibrium collection promotes balance and calm.</p>
+    <aside class="details">
+      <div class="line">
+        <img class="icon" src="images/icon-ethereum.svg" alt="ether">
+        <span class="price">0.041 ETH</span>
       </div>
-      <div>
-        <img src="images/icon-clock.svg" alt="clock">
+      <div class="line">
+        <img class="icon" src="images/icon-clock.svg" alt="clock">
         <span>3 days left</span>
       </div>
     </aside>
-    <footer>
-      <img src="images/image-avatar.png" alt="avatar">
-      <span>Creation of <strong>Jules Wyvern</strong></span>
+    <footer class="credits line">
+      <img class="avatar" src="images/image-avatar.png" alt="avatar">
+      <span>Creation of <a href="http://" target="_blank" rel="author">Jules Wyvern</a></span>
     </footer>
   </main>
 </body>
