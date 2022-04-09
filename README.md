@@ -1,6 +1,6 @@
 # NFT preview card component solution
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/simple-card-with-interactions-Sk5sWU0Q9).
 
 ## Table of contents
 
@@ -11,6 +11,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -38,17 +40,43 @@ Users should be able to:
 
 ### What I learned
 
-In this project I learned how to set multiple backgrounds and box-shadows to my components:
+- How to organize my code using css classes
+  ```html
+  <main class="card">
+    <!-- other tags -->
+  </main>
+  ```
+  ```css
+  .card {
+    /* some style */
+  }
+  ```
+- How to set multiple backgrounds and box-shadows to my components:
 
-```css
-  div {
-    box-shadow: 0 23px 10px 17px rgba(0, 0, 0, .1), 0 15px 20px 50px rgba(0, 0, 0, .03);
-    /* just put a comma between the shadow parameters */
-  }
-```
-```css
-  div {
-    background: url('images/bg.svg') no-repeat center center, (rgba(0, 0, 0, .4) 100%, rgba(0, 0, 0, .4) 100%);
-    /* you can't mix background image and color so you can use a trick: linear-gradient */
-  }
-```
+  ```css
+    div {
+      box-shadow: 0 23px 10px 17px rgba(0, 0, 0, .1), 0 15px 20px 50px rgba(0, 0, 0, .03);
+      /* just put a comma between the shadow parameters */
+    }
+  ```
+  ```css
+    div {
+      background: url('images/bg.svg') no-repeat center center, (rgba(0, 0, 0, .4) 100%, rgba(0, 0, 0, .4) 100%);
+      /* you can't mix background image and color so you can use a trick: linear-gradient */
+    }
+  ```
+
+### Useful resources
+
+- [CSS Multiple Backgrounds](https://www.w3schools.com/css/css3_backgrounds.asp)
+- [Multiple Shadows in CSS](https://www.entheosweb.com/tutorials/css/multiple_shadows.asp)
+
+## Author
+
+- LinkedIn - [Mateus Sale albino](https://www.linkedin.com/in/mateusalbino/)
+- Frontend Mentor - [@mateus3009](https://www.frontendmentor.io/profile/mateus3009)
+
+## Acknowledgments
+
+Thanks to [vanzasetia](https://github.com/vanzasetia) who gave me a [feedback](https://www.frontendmentor.io/solutions/simple-card-with-interactions-Sk5sWU0Q9#comment-625106e4f223eb5a99e889c4) about the importance of use css classes and how my interactive components should by wrapped in an anchor tag.
+
