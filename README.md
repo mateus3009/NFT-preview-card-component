@@ -40,7 +40,16 @@ Users should be able to:
 
 ### What I learned
 
+- How to use css media feature `prefers-reduced-motion` to disable animations based on the user preferences
+
+  ```css
+    .nft_image_container::before {
+      transition: none;
+    }
+  ```
+
 - How to organize my code using css classes
+
   ```html
   <main class="card">
     <!-- other tags -->
@@ -51,6 +60,7 @@ Users should be able to:
     /* some style */
   }
   ```
+
 - How to set multiple backgrounds and box-shadows to my components:
 
   ```css
@@ -59,6 +69,7 @@ Users should be able to:
       /* just put a comma between the shadow parameters */
     }
   ```
+
   ```css
     div {
       background: url('images/bg.svg') no-repeat center center, (rgba(0, 0, 0, .4) 100%, rgba(0, 0, 0, .4) 100%);
@@ -70,6 +81,7 @@ Users should be able to:
 
 - [CSS Multiple Backgrounds](https://www.w3schools.com/css/css3_backgrounds.asp)
 - [Multiple Shadows in CSS](https://www.entheosweb.com/tutorials/css/multiple_shadows.asp)
+- [prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)
 
 ## Author
 

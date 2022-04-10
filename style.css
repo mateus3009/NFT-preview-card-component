@@ -124,3 +124,9 @@ a:hover {
   border-radius: 100%;
   margin-right: 17px;
 }
+
+@media (prefers-reduced-motion) {
+  .nft_image_container::before {
+    transition: none;
+  }
+}
