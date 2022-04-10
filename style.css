@@ -11,13 +11,9 @@
 }
 
 * {
-  outline: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   box-sizing: border-box;
-  transition: all .2s ease-in-out;
-  text-decoration: none;
 }
 
 .center {
@@ -27,7 +23,7 @@
 }
 
 body {
-  min-width: 100vw;
+  min-width: 375px;
   min-height: 100vh;
 
   font-family: 'Outfit', sans-serif;
@@ -72,6 +68,7 @@ body {
 
 a {
   color: var(--color-white);
+  text-decoration: none;
 }
 
 a:hover {
