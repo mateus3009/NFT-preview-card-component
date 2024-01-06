@@ -91,4 +91,3 @@ Users should be able to:
 ## Acknowledgments
 
 Thanks to [vanzasetia](https://github.com/vanzasetia) who gave me a [feedback](https://www.frontendmentor.io/solutions/simple-card-with-interactions-Sk5sWU0Q9#comment-625106e4f223eb5a99e889c4) about the importance of use css classes and how my interactive components should by wrapped in an anchor tag.
-
